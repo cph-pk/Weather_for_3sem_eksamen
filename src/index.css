@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+  background-color: #1d1d1d;
+}
+
+/* .app {
+  background-image: url('./assets/zeacUC.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+} */
+
+.icon {
+  width: 13px;
+}
+
+.icon2 {
+  width: 20px;
+  vertical-align: text-bottom;
+}
+
+.icon3 {
+  width: 11px;
+}
+
+main {
+  padding: 25px;
+  /* min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75)); */
+}
+
+.location-box .location {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .weather-description {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .items {
+  position: relative;
+  display: inline-block;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 10px 10px;
+
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .items .itemLarge {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .items .itemLarge div {
+  padding: 5px 15px;
+}
+
+.weather-box .items .itemSmall {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .items .itemSmall .itemT {
+  padding: 7.5px 10px 5px;
+}
+
+.weather-box .items .itemSmall .itemB {
+  padding: 5px 10px;
+}
+
+.daily-box {
+  justify-content: center;
+  display: flex;
+}
+
+.daily-box .itemDaily {
+  position: relative;
+  flex-basis: 100%;
+  margin: 30px 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  color: #FFF;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+  padding: 10px 15px;
+
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.daily-box .itemDaily .itemDailyHeader {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.daily-box .itemDaily .iconSmall {
+  width: 50px;
+}
+
+.daily-box .itemDaily .tempDaily {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+.daily-box .itemDaily .tempDailyCold {
+  color:#00BFFF;
+}
+
+.daily-box .itemDaily .dailyDescription {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 5px;
+}
